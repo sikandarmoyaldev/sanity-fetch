@@ -1,0 +1,55 @@
+{
+    "name": "sanity-fetch",
+    "version": "1.0.0",
+    "description": "A lightweight, universal Sanity client built on native fetch. Works in React Native, web browsers, and modern JavaScript environments without Node.js dependencies.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "author": "Sikandar <sikandar.moyal.dev@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "pnpm run build",
+        "format": "prettier --write ."
+    },
+    "keywords": [
+        "sanity",
+        "groq",
+        "fetch",
+        "react-native",
+        "expo",
+        "universal",
+        "browser",
+        "cms",
+        "lightweight",
+        "sanity-client"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sikandarmoyaldev/sanity-fetch.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sikandarmoyaldev/sanity-fetch/issues"
+    },
+    "homepage": "https://github.com/sikandarmoyaldev/sanity-fetch#readme",
+    "dependencies": {
+        "@sanity/image-url": "^1.0.1"
+    },
+    "devDependencies": {
+        "prettier": "^3.5.3",
+        "typescript": "^5.5.3"
+    },
+    "files": [
+        "dist/**/*"
+    ],
+    "packageManager": "pnpm@10.12.1",
+    "prettier": {
+        "singleQuote": false,
+        "semi": true,
+        "trailingComma": "all",
+        "tabWidth": 4,
+        "printWidth": 80,
+        "arrowParens": "avoid",
+        "bracketSameLine": false,
+        "endOfLine": "auto"
+    }
+}
